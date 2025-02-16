@@ -92,9 +92,9 @@ class _HomepageState extends State<Homepage> {
             Text(
               '🎓 หลักสูตรของเรา',
               style: Theme.of(context).textTheme.titleLarge!.copyWith(
-                color: Colors.blueAccent,
-                fontSize: 30,
-              ),
+                    color: Colors.blueAccent,
+                    fontSize: 30,
+                  ),
             ),
 
             const SizedBox(height: 15),
@@ -116,6 +116,6 @@ class _HomepageState extends State<Homepage> {
           ],
         ),
       ),
-    );;
+    );
   }
 }

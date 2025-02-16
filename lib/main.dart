@@ -2,11 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:myapp/homepage.dart';
 
-import 'carousel_slider.dart'; // นำเข้าไฟล์ที่สร้างไว้
-import 'detail_carousel_slide.dart';
-import 'sidebarmenu.dart';
-import 'Footer.dart';
-
 void main() {
   runApp(const MyApp());
 }
