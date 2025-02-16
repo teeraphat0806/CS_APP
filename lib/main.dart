@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:myapp/course_list_page.dart';
 import 'package:myapp/homepage.dart';
 
 void main() {
@@ -31,6 +32,7 @@ class MyApp extends StatelessWidget {
       initialRoute: '/',
       routes: {
         '/': (context) => Homepage(),
+        '/courselist': (context) => CourseListPage(),
       },
     );
   }

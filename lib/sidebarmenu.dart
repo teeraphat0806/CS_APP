@@ -58,7 +58,10 @@ class Sidebarmenus extends StatelessWidget {
                 MenuItem(
                   icon: Icons.people,
                   text: 'ภาคปกติ',
-                  onTap: () => print("Navigating to Categories"),
+                  // onTap: () => print("Navigating to Categories"),
+                  onTap: () {
+                    Navigator.pushNamed(context, "/courselist");
+                  },
                 ),
                 MenuItem(
                   icon: Icons.language,
