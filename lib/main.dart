@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-
+import 'menus.dart';
 import 'carousel_slider.dart'; // นำเข้าไฟล์ที่สร้างไว้
 import 'detail_carousel_slide.dart';
 import 'sidebarmenu.dart';
@@ -55,16 +55,16 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   final List<String> gallery = [
-    'https://drive.google.com/uc?export=view&id=1nfA24-joCPQcm7a_4H49ptYMueGx8uvt',
-    'http://cs.kmutnb.ac.th/img/banner/con_tsr.png',
-    'http://cs.kmutnb.ac.th/img/banner/MS1-2568.png',
+    'https://lh3.googleusercontent.com/d/1Bgr-M0T23MfDuHNClEzw7w-BilSPFqIO=w1000',
+    'https://lh3.googleusercontent.com/d/1wQmsiupsteMm1_n2bHbqXeAE6GNvYhDI=w1000',
+    'https://lh3.googleusercontent.com/d/1a7NSEzHLlomJGezdoB_VgUZjLGDHsVzi=w1000',
   ];
   final List<String> images = [
-    "http://cs.kmutnb.ac.th/img/course2.jpg",
-    "http://cs.kmutnb.ac.th/img/course4.jpg",
-    "http://cs.kmutnb.ac.th/img/course6.jpg",
-    "http://cs.kmutnb.ac.th/img/course1.jpg",
-    "http://cs.kmutnb.ac.th/img/course7.jpg",
+    "https://lh3.googleusercontent.com/d/1nfA24-joCPQcm7a_4H49ptYMueGx8uvt=w1000",
+    "https://lh3.googleusercontent.com/d/1bi4cKu06V6mqSLiJ7SQBgXNy56cDXpTk=w1000",
+    "https://lh3.googleusercontent.com/d/16uhVyxLc2IwKfVIJ6jDf7uCaEtvxx9TB=w1000",
+    "https://lh3.googleusercontent.com/d/1Ow6D0FNLSrCS0wqkGm3vAuCmCBfde5kh=w1000",
+    "https://lh3.googleusercontent.com/d/1igNcQhZsA6XXroeFogaGLUAjk_m5Wblo=w1000",
   ];
 
   final List<String> titles = [
@@ -97,7 +97,7 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         toolbarHeight: 90, // ปรับความสูงของ AppBar ให้ใหญ่พอ
         title: Image.network(
-          'http://cs.kmutnb.ac.th/img/logo.png',
+          'https://lh3.googleusercontent.com/d/1vOAxsOruch4kDHI_JiZQURCXsQlCx-s6=w1000',
           height: 70, // คงขนาดของโลโก้
         ),
         centerTitle: true,
@@ -136,8 +136,10 @@ class _MyHomePageState extends State<MyHomePage> {
               detail: details,
               date: dates,
             ),
-
-            const SizedBox(height: 20),
+            
+            /// **ข่าวสาร**
+            const SizedBox(height: 25),
+            //NewsScreen(),
 
             const SizedBox(height: 15),
 

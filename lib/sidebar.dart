@@ -23,7 +23,7 @@ class SidebarMenu extends StatelessWidget {
                 children: [
                   /// **โลโก้**
                   Image.network(
-                    'http://cs.kmutnb.ac.th/img/logo.png',
+                    'https://lh3.googleusercontent.com/d/1vOAxsOruch4kDHI_JiZQURCXsQlCx-s6=w1000',
                     height: 100,
                     fit: BoxFit.contain,
                   ),
